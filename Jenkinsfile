@@ -2,7 +2,7 @@ pipeline {
     agent any
     parameters {
         string(name: 'servicename', defaultValue: 'windows update', description: 'stop')}
-}
+
 stages {
         stage('paratest1') {
             steps {
